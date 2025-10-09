@@ -1,0 +1,139 @@
+* {
+margin:0;
+padding:0;
+font-family: sans-serif;
+}
+
+body{
+    background: #851a14;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background: rgb(247, 125, 4);
+}
+
+
+.titulos{
+    display: block;
+    color: rgb(48, 10, 10);
+    padding: 20px;
+}
+
+.cabecera{
+    display: flex;
+}
+
+.logo{
+    left: 10px;
+    top: 10px; 
+    height: 110px;
+    width: 110px;
+}
+
+nav{
+    margin-top: 110px;
+    position: absolute;
+    width: 100%;
+    padding: 0 0;
+    align-items: center;
+    background-color: rgb(142, 88, 60);
+    height: 30px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menu-horizontal li{
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.menu-horizontal li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+ }
+
+.menu-horizontal li a:hover{
+    color:rgb(19, 15, 205);
+}
+
+section{
+    margin-top: 40px;
+    height: 550px;
+    padding: 50px;
+    color: white;
+}
+
+section p {
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+.centro{
+    display: flex;
+    margin-top: 40px;
+}
+
+form{
+    display: flex;
+    margin-left: 150px;
+    height: 300px;
+    width: 300px;
+    color: bisque;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.formulario{
+    width: 500px;
+    font-size: 24px;
+}
+
+.formulario label{
+    margin-top: 0px;
+}
+
+.formulario input{
+    margin-right: 300px;
+    margin-top: 15px;
+}
+
+.formulario textarea{
+    margin-right: 300px;
+    margin-top: 15px;
+}
+
+.formulario button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+
+
+.texto{
+    padding: 100px;
+    text-align: justify;
+    font-size: 24px;
+    font-style: italic;
+}
+
+footer{
+    background: rgb(247, 125, 4);
+    height: 15%;
+    color: rgb(46, 10, 10);
+    text-align: center;
+    padding: 15px;
+}
